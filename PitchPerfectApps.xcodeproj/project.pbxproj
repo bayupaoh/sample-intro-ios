@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20AAFCA8224CC49C0092581B /* SwippingController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AAFCA7224CC49C0092581B /* SwippingController+extension.swift */; };
+		20AAFCAA224CC5B10092581B /* SwippingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AAFCA9224CC5B10092581B /* SwippingController+UICollectionView.swift */; };
+		20AB2343224B47DE00532BC7 /* SwippingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB2342224B47DE00532BC7 /* SwippingController.swift */; };
+		20AB2345224B5F3000532BC7 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB2344224B5F3000532BC7 /* PageCell.swift */; };
+		20AB2347224B717300532BC7 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB2346224B717300532BC7 /* Page.swift */; };
 		20E18CAB223F80CC004B1DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E18CAA223F80CC004B1DC4 /* AppDelegate.swift */; };
-		20E18CAD223F80CC004B1DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E18CAC223F80CC004B1DC4 /* ViewController.swift */; };
-		20E18CB0223F80CC004B1DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E18CAE223F80CC004B1DC4 /* Main.storyboard */; };
 		20E18CB2223F80CF004B1DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E18CB1223F80CF004B1DC4 /* Assets.xcassets */; };
-		20E18CB5223F80CF004B1DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E18CB3223F80CF004B1DC4 /* LaunchScreen.storyboard */; };
 		20E18CC0223F80CF004B1DC4 /* PitchPerfectAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E18CBF223F80CF004B1DC4 /* PitchPerfectAppsTests.swift */; };
 		20E18CCB223F80CF004B1DC4 /* PitchPerfectAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E18CCA223F80CF004B1DC4 /* PitchPerfectAppsUITests.swift */; };
 /* End PBXBuildFile section */
@@ -34,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20AAFCA7224CC49C0092581B /* SwippingController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+extension.swift"; sourceTree = "<group>"; };
+		20AAFCA9224CC5B10092581B /* SwippingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+UICollectionView.swift"; sourceTree = "<group>"; };
+		20AB2342224B47DE00532BC7 /* SwippingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingController.swift; sourceTree = "<group>"; };
+		20AB2344224B5F3000532BC7 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		20AB2346224B717300532BC7 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		20E18CA7223F80CC004B1DC4 /* PitchPerfectApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfectApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E18CAA223F80CC004B1DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20E18CAC223F80CC004B1DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20E18CAF223F80CC004B1DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20E18CB1223F80CF004B1DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20E18CB4223F80CF004B1DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E18CB6223F80CF004B1DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E18CBB223F80CF004B1DC4 /* PitchPerfectAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E18CBF223F80CF004B1DC4 /* PitchPerfectAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectAppsTests.swift; sourceTree = "<group>"; };
@@ -74,6 +78,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20AAFCAB224CC81E0092581B /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				20AAFCA7224CC49C0092581B /* SwippingController+extension.swift */,
+				20AAFCA9224CC5B10092581B /* SwippingController+UICollectionView.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		20AAFCAC224CC84C0092581B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				20AB2346224B717300532BC7 /* Page.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		20AAFCAD224CC85A0092581B /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				20AB2344224B5F3000532BC7 /* PageCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		20AAFCAE224CC8710092581B /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				20AB2342224B47DE00532BC7 /* SwippingController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
 		20E18C9E223F80CC004B1DC4 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +134,12 @@
 		20E18CA9223F80CC004B1DC4 /* PitchPerfectApps */ = {
 			isa = PBXGroup;
 			children = (
+				20AAFCAE224CC8710092581B /* viewcontrollers */,
+				20AAFCAD224CC85A0092581B /* cell */,
+				20AAFCAC224CC84C0092581B /* model */,
+				20AAFCAB224CC81E0092581B /* extension */,
 				20E18CAA223F80CC004B1DC4 /* AppDelegate.swift */,
-				20E18CAC223F80CC004B1DC4 /* ViewController.swift */,
-				20E18CAE223F80CC004B1DC4 /* Main.storyboard */,
 				20E18CB1223F80CF004B1DC4 /* Assets.xcassets */,
-				20E18CB3223F80CF004B1DC4 /* LaunchScreen.storyboard */,
 				20E18CB6223F80CF004B1DC4 /* Info.plist */,
 			);
 			path = PitchPerfectApps;
@@ -229,9 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E18CB5223F80CF004B1DC4 /* LaunchScreen.storyboard in Resources */,
 				20E18CB2223F80CF004B1DC4 /* Assets.xcassets in Resources */,
-				20E18CB0223F80CC004B1DC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E18CAD223F80CC004B1DC4 /* ViewController.swift in Sources */,
+				20AAFCAA224CC5B10092581B /* SwippingController+UICollectionView.swift in Sources */,
+				20AB2343224B47DE00532BC7 /* SwippingController.swift in Sources */,
+				20AB2345224B5F3000532BC7 /* PageCell.swift in Sources */,
 				20E18CAB223F80CC004B1DC4 /* AppDelegate.swift in Sources */,
+				20AAFCA8224CC49C0092581B /* SwippingController+extension.swift in Sources */,
+				20AB2347224B717300532BC7 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +331,6 @@
 			targetProxy = 20E18CC7223F80CF004B1DC4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		20E18CAE223F80CC004B1DC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20E18CAF223F80CC004B1DC4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		20E18CB3223F80CF004B1DC4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20E18CB4223F80CF004B1DC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		20E18CCD223F80CF004B1DC4 /* Debug */ = {
